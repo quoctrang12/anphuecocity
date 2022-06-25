@@ -1,0 +1,43 @@
+.banner {
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-attachment: scroll;
+    background-origin: content-box;
+    background-image: url(https://w.ladicdn.com/s1440x725/62957c1637739a005da4499d/an-phu-eco-city-can-tho-20220531070549.jpg);
+    background-position: center center;
+    background-repeat: repeat;
+    position: relative;
+
+}
+
+.text {
+    width: 477.869px;
+    height: 203.356px;
+    background-color: rgba(255, 255, 255, 0.295);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    color: #fff;
+    text-align: center;
+    font-weight: normal;
+
+    .title {
+        text-transform: uppercase;
+        font-size: 4.8rem;
+        padding: 1rem 0;
+    }
+
+    .line {
+        width: 377.869px;
+        height: 3px;
+        background-color: #fff;
+        margin: 0 auto;
+    }
+
+    .des {
+        padding-top: 3rem;
+        font-size: 2rem;
+    }
+}
