@@ -1,4 +1,7 @@
 .wrapper{
-    min-height:  1048.45px;
     background-color: rgb(138, 255, 210);
+}
+.container{
+    width: var(--default-layout-width);
+    margin: 20px auto;
 }
