@@ -1,4 +1,37 @@
 .wrapper{
-    min-height:  1015.7px;
     background-color: rgb(255, 218, 138);
+}
+
+.container{
+    width: 77%;
+    margin: 20px auto;
+}
+
+.content{
+    width: 90%;
+    margin: 20px auto;
+}
+
+.img-main{
+
+    img{
+        width: 100%;
+    }
+}
+.img-sub{
+    display: flex;
+}
+.images{
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+
+    img{
+        width: 100%;
+        height: 100%;
+    }
+    
+}
+.images + .images{
+    margin-left: 10px;
 }

@@ -2,3 +2,21 @@
     min-height:  359.431px;
     background-color: rgb(255, 138, 157);
 }
+
+.container{
+    width: 77%;
+    display: flex;
+    margin: 20px auto;
+}
+
+.info{
+    width: 55%;
+}
+
+.faq{
+    flex:1;
+}
+
+.detail{
+    margin: 20px 5px;
+}

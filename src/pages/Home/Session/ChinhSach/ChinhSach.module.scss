@@ -1,9 +1,64 @@
 .wrapper{
-    min-height:  683.45px;
     background-color: rgb(232, 138, 255);
 }
 
 .container{
     width: 77%;
     margin: 0 auto;
+}
+.info{
+    flex:1;
+}
+.gift{
+    background-color: greenyellow;  
+    width: 450px;
+    min-height:200px;
+    img{
+    }
+}
+.box{
+    width: 90%;
+    margin: 20px auto;
+    min-height: 300px;
+    background-color: blue;
+    padding:10px;
+}
+
+.box-group{
+    
+    display: flex;
+}
+
+.file{
+    width: 60%;
+    padding: 20px;
+    color:black;
+    .file-name{
+        
+        text-decoration: underline;
+    }
+}
+
+.form{
+    flex:1;
+    min-height: 90px;
+
+    .input, .textarea{
+        display: block;
+        margin: 10px;
+        width: 90%;
+        height:30px;
+        border-radius: 5px;
+        padding: 0 5px;
+    }
+    .textarea{
+        height: 100px;
+        padding-top: 5px;
+    }
+    .button{
+        width: 50%;
+        height:30px;
+        border-radius: 5px;
+        margin:10px 25%;
+    }
 }
