@@ -26,7 +26,7 @@ function PhanKhu() {
             <div className={cx("image")}>
               <div className={cx("info-images")}>
                 <img
-                  src="https://w.ladicdn.com/s1300x1000/62957c1637739a005da4499d/vi-tri-1024x580-20220531074652.jpg"
+                  src="https://w.ladicdn.com/s1000x700/62957c1637739a005da4499d/lien-ke-1-20220604025139.jpg"
                   alt=""
                 />
               </div>
@@ -37,7 +37,7 @@ function PhanKhu() {
             <div className={cx("image")}>
               <div className={cx("info-images")}>
                 <img
-                  src="https://w.ladicdn.com/s1300x1000/62957c1637739a005da4499d/vi-tri-1024x580-20220531074652.jpg"
+                  src="https://w.ladicdn.com/s950x700/62957c1637739a005da4499d/khu-shapperi-1024x576-20220604025548.jpg"
                   alt=""
                 />
               </div>
@@ -67,7 +67,7 @@ function PhanKhu() {
             <div className={cx("image")} style={{ marginRight: "100px" }}>
               <div className={cx("info-images")}>
                 <img
-                  src="https://w.ladicdn.com/s1300x1000/62957c1637739a005da4499d/vi-tri-1024x580-20220531074652.jpg"
+                  src="https://w.ladicdn.com/s1000x700/62957c1637739a005da4499d/khu-ruby-1024x578-20220604025944.jpg"
                   alt=""
                 />
               </div>
@@ -78,7 +78,7 @@ function PhanKhu() {
             <div className={cx("image")}>
               <div className={cx("info-images")}>
                 <img
-                  src="https://w.ladicdn.com/s1300x1000/62957c1637739a005da4499d/vi-tri-1024x580-20220531074652.jpg"
+                  src="https://w.ladicdn.com/s950x650/62957c1637739a005da4499d/eco-city-3-01-scaled-20220531160019.jpg"
                   alt=""
                 />
               </div>

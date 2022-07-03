@@ -56,7 +56,7 @@ function ChinhSach() {
                 </div>
                 <div>
                   <h3 className={cx("file-name")}>
-                    CBảng giá ưu đãi.pdf
+                    Bảng giá ưu đãi.pdf
                   </h3>
                 </div>
                 <div>
@@ -98,6 +98,7 @@ function ChinhSach() {
           </div>
         </div>
       </div>
+     
     </div>
   );
 }

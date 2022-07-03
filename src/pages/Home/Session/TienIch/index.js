@@ -18,13 +18,13 @@ function TienIch() {
         </div>
         <div className={cx("info-images")}>
           <img
-            src="https://w.ladicdn.com/s1300x1000/62957c1637739a005da4499d/vi-tri-1024x580-20220531074652.jpg"
+            src="https://w.ladicdn.com/s1300x900/62957c1637739a005da4499d/screenshot-24-20220531075841.png"
             alt=""
           />
         </div>
         <div className={cx("info-images")}>
           <img
-            src="https://w.ladicdn.com/s1300x1000/62957c1637739a005da4499d/vi-tri-1024x580-20220531074652.jpg"
+            src="https://w.ladicdn.com/s1300x950/62957c1637739a005da4499d/screenshot-25-20220531075841.png"
             alt=""
           />
         </div>

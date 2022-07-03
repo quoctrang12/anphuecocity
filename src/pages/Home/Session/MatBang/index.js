@@ -10,7 +10,7 @@ function MatBang() {
         <Title>MẶT BẰNG DỰ ÁN AN PHÚ ECO CITY</Title>
         <div className={cx("info-images")}>
           <img
-            src="https://w.ladicdn.com/s1300x1000/62957c1637739a005da4499d/vi-tri-1024x580-20220531074652.jpg"
+            src="https://w.ladicdn.com/s1300x1000/62957c1637739a005da4499d/an-phu-eco-city-11-20220531080432.png"
             alt=""
           />
         </div>
