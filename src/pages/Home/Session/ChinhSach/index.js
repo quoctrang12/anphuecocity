@@ -44,27 +44,45 @@ function ChinhSach() {
           <div className={cx("box")}>
             <div className={cx("box-group")}>
               <div className={cx("file")}>
-                <div>
+                <div className={cx("file-image")}>
+                  <img
+                    src="https://w.ladicdn.com/s350x350/5f21c40d58ec0c18ea5e1bac/ocyclar-20211211061241.png"
+                    alt=""
+                  />
                   <h3 className={cx("file-name")}>
                     Chính sách bán hàng An Phu Eco City - New.pdf
                   </h3>
                 </div>
-                <div>
+                <div className={cx("file-image")}>
+                  <img
+                    src="https://w.ladicdn.com/s350x350/5f21c40d58ec0c18ea5e1bac/ocyclar-20211211061241.png"
+                    alt=""
+                  />
                   <h3 className={cx("file-name")}>
-                  Quỹ căn đẹp ngoại giao.pdf
+                    Quỹ căn đẹp ngoại giao.pdf
+                  </h3>
+                </div>
+                <div className={cx("file-image")}>
+                  <img
+                    src="https://w.ladicdn.com/s350x350/5f21c40d58ec0c18ea5e1bac/ocyclar-20211211061241.png"
+                    alt=""
+                  />
+                  <h3 className={cx("file-name")}>Bảng giá ưu đãi.pdf</h3>
+                </div>
+                <div className={cx("file-image")}>
+                  <img
+                    src="https://w.ladicdn.com/s350x350/5f21c40d58ec0c18ea5e1bac/ocyclar-20211211061241.png"
+                    alt=""
+                  />
+                  <h3 className={cx("file-name")}>
+                    Sơ đồ phân lô An Phú Ecocity.pdf
                   </h3>
                 </div>
                 <div>
-                  <h3 className={cx("file-name")}>
-                    Bảng giá ưu đãi.pdf
-                  </h3>
+                  Quý ANH/CHỊ vui lòng nhập chính xác thông tin số điện thoại và
+                  địa chỉ Email để chúng tôi có thể gửi toàn bộ tài liệu cho anh
+                  chị nhanh và sớm nhất
                 </div>
-                <div>
-                  <h3 className={cx("file-name")}>
-                  Sơ đồ phân lô An Phú Ecocity.pdf
-                  </h3>
-                </div>
-                <div>Quý ANH/CHỊ vui lòng nhập chính xác thông tin số điện thoại và địa chỉ Email để chúng tôi có thể gửi toàn bộ tài liệu cho anh chị nhanh và sớm nhất</div>
               </div>
               <div className={cx("form")}>
                 <input
@@ -98,7 +116,6 @@ function ChinhSach() {
           </div>
         </div>
       </div>
-     
     </div>
   );
 }

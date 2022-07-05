@@ -15,7 +15,7 @@ function MatBang() {
           />
         </div>
         <div className={cx("content")}>
-          MẶT BẰNG DỰ ÁN AN PHÚ ECO CITY– Đất công viên cây xanh – TDTT, mặt
+          – Đất công viên cây xanh – TDTT, mặt
           nước có diện tích khoảng 9.174m2, Nhà đầu tư sẽ trồng cây xanh, tạo
           cảnh quan mặt nước cho dự án theo quy hoạch được phê duyệt <br/>– Đất giao
           thông và hạ tầng kỹ thuật chiếm diện tích khoảng 22.972m2: Nhà đầu tư

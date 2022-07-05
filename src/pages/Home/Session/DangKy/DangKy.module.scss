@@ -1,11 +1,12 @@
 .wrapper {
     background-color: rgb(150, 173, 114);
+    padding: 20px;
 }
 
 .container {
     display: flex;
     width: 80%;
-    margin: 20px auto;
+    margin: 0px auto;
 }
 
 .content {
@@ -24,6 +25,8 @@
         height: 40px;
         border-radius: 5px;
         padding: 0 5px;
+        border: 1px solid #000;
+
     }
 
     .textarea {
@@ -47,13 +50,11 @@
         background: #4facfe;
         background: -webkit-linear-gradient(180deg, #4facfe, #00f2fe);
         background: linear-gradient(180deg, #4facfe, #00f2fe);
-        border-radius: 5px;
-
-        
+        border-radius: 5px; 
     }
 
     .phone, .button{
-        animation-duration: 0.1s;
+        animation-duration: 0.3s;
         animation-name: slidein;
         animation-iteration-count: infinite;
         animation-direction: alternate;

@@ -1,3 +1,6 @@
+import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
+import { faGlobe, faHouse, faPhone } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import classNames from "classnames/bind";
 import Title from "../components/Title";
 import styles from "./LienHe.module.scss";
@@ -11,10 +14,10 @@ function LienHe() {
         <div className={cx("info")}>
             <h3 className={cx("")}>CÔNG TY CỔ PHẦN DỊCH VỤ & ĐỊA ỐC ĐẤT XANH MIỀN BẮC</h3>
             <div className={cx("detail")}>
-                <p>Địa chỉ: 146E Trần Văn Hoài, Xuân Khánh, Ninh Kiều, Cần Thơ</p>
-                <p>Hotline: 0978.372.988</p>
-                <p>Email: cskh.dxgroup@gmail.com</p>
-                <p>Website: www.anphu-ecocity.net</p>
+                <p><FontAwesomeIcon icon={faHouse}/>{" "}Địa chỉ: 146E Trần Văn Hoài, Xuân Khánh, Ninh Kiều, Cần Thơ</p>
+                <p><FontAwesomeIcon icon={faPhone}/>{" "}Hotline: 0978.372.988</p>
+                <p><FontAwesomeIcon icon={faEnvelope}/>{" "}Email: cskh.dxgroup@gmail.com</p>
+                <p><FontAwesomeIcon icon={faGlobe}/>{" "}Website: www.anphu-ecocity.net</p>
             </div>
         </div>
         <div className={cx("faq")}>

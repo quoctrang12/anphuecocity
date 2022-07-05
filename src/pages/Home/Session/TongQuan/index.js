@@ -2,6 +2,8 @@ import classNames from "classnames/bind";
 import styles from "./TongQuan.module.scss";
 import Title from "~/pages/Home/Session/components/Title";
 import { useEffect, useState } from "react";
+import images from "~/assets/images";
+
 const cx = classNames.bind(styles);
 function TongQuan() {
   const subImage = [
@@ -65,31 +67,71 @@ function TongQuan() {
             </div>
             <div className={cx("info")}>
               <div className={cx("info-details")}>
-                <ul style={{listStyle: "none"}}>
-                  <li>Tên dự án: An Phú Eco City</li>
-                  <li>Chủ đầu tư: Công ty TNHH An Phú Cần Thơ</li>
-                  <li>Diện tích đất: 10.2 ha.</li>
-                  <li>Diện tích cây xanh mặt nước: 7.000m2</li>
-                  <li>
+                <ul style={{ listStyle: "none" }}>
+                  <li className={cx("detail")}>
+                    {" "}
+                    <img src={images.kimcuong} alt="" />
+                    <span className={cx("headline")}>Tên dự án: </span> An Phú
+                    Eco City
+                  </li>
+                  <li className={cx("detail")}>
+                    <img src={images.kimcuong} alt="" />
+                    <span className={cx("headline")}>Chủ đầu tư:</span> Công ty
+                    TNHH An Phú Cần Thơ
+                  </li>
+                  <li className={cx("detail")}>
+                    <img src={images.kimcuong} alt="" />
+                    <span className={cx("headline")}>Diện tích đất: </span> 10.2
+                    ha.
+                  </li>
+                  <li className={cx("detail")}>
+                    <img src={images.kimcuong} alt="" />
+                    <span className={cx("headline")}>
+                      Diện tích cây xanh mặt nước:
+                    </span>{" "}
+                    7.000m2
+                  </li>
+                  <li className={cx("detail")}>
+                    <img src={images.kimcuong} alt="" />
                     Diện tích công viên lớn nhất, tích hợp tiện ích bể bơi du
                     thuyền trên kênh đào xuyên suốt dự án
                   </li>
-                  <li>Diện tích bãi đậu xe: Hơn 5.000m2</li>
-                  <li>Hình thức sở hữu: Sổ hồng lâu dài</li>
-                  <li>Giá bán: NHẬN BÁO GIÁ TẠI ĐÂY</li>
+                  <li className={cx("detail")}>
+                    <img src={images.kimcuong} alt="" />
+                    <span className={cx("headline")}>
+                      Diện tích bãi đậu xe:
+                    </span>{" "}
+                    Hơn 5.000m2
+                  </li>
+                  <li className={cx("detail")}>
+                    <img src={images.kimcuong} alt="" />
+                    <span className={cx("headline")}>Hình thức sở hữu:</span> Sổ
+                    hồng lâu dài
+                  </li>
+                  <li className={cx("detail")}>
+                    <img src={images.kimcuong} alt="" />
+                    <span className={cx("headline")}>Giá bán:</span> NHẬN BÁO
+                    GIÁ TẠI ĐÂY
+                  </li>
                 </ul>
               </div>
             </div>
           </div>
           <div className={cx("row")}>
             <div className={cx("info-details")}>
-              Khu đô thị An Phú EcoCity sở hữu vị trí vàng hoàn hảo “Nhất cận
+              <div className={cx("detail")}>
+                <img src={images.kimcuong} alt="" />
+                <span className={cx("headline")}>
+                  Sống thời thượng – Vượng sinh tài
+                </span>
+              </div>
+              <div style={{ marginLeft:"32px"}}>Khu đô thị An Phú EcoCity sở hữu vị trí vàng hoàn hảo “Nhất cận
               thị, nhị cận giang, tam cận lộ”, mang đến tài lộc, vượng khí cho
               chủ nhân. Các căn hộ được bao quanh bởi dòng sông thơ mộng, kết
               nối nhanh chóng đến quốc lộ 1A. Với những lợi thế sẵn có, An Phú
               EcoCity không chỉ là cùng đất an lành để an cư lập nghiệp cho chủ
               nhân mà còn là nơi tràn đầy vượng khí, nơi sinh lời lý tưởng cho
-              các nhà đầu tư bất động sản.
+              các nhà đầu tư bất động sản.</div>
             </div>
           </div>
         </div>
